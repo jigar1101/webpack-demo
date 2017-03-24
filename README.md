@@ -1,5 +1,4 @@
-====================================================================================================
-
+=====================================================================================
 Create a folder
 git init
 yarn init -y
@@ -15,8 +14,7 @@ Create a output object in webpack.config
 Now again run yarn start => This will create a output file in public folder namely index.js (As specified in webpack.config.js)
 Create a html file in public and the file will be included
 
-====================================================================================================
-
+=====================================================================================
 Install webpack-dev-server
 Install webpack-html-plugin
 
@@ -27,4 +25,4 @@ Now update the config to use HtmlWebpackPlugin and delete the file from public f
 This will ensure the html does not get overridden each time the build is done.
 Now the html will be injected using the htmlwebpackplugin
 
-====================================================================================================
+=====================================================================================
